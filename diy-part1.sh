@@ -16,4 +16,4 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # 修改内核
-sed -i "s/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.15/g" target/linux/bcm27xx/Makefile
+#sed -i "s/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.15/g" target/linux/bcm27xx/Makefile
